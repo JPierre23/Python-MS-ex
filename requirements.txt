@@ -5,3 +5,25 @@ pylint==2.15.4
 black==22.10.0
 fire==0.4.0
 
+jobs:
+build:
+    runs-on:ubuntu-latest
+
+    steps:
+    - users: actions/checkout@v2
+    - name: Set up Python 3.10.7
+    usues: actions/setup-pyhton@v1
+    with:
+        python-version: 3.10.7
+    - name: Install dependencies
+        run: |
+            make install
+     - name: Lint with pyLint
+        run: |
+            make lint
+     - name: Test with pytest
+        run: |
+            make test
+     - name: Format code
+        run: |
+            make format

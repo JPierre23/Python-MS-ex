@@ -6,6 +6,7 @@ install:
 
 format:
 	#format code
+	black *.py mylib/*.py
 lint:
 	#flake8 or pyLint
 

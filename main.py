@@ -1,3 +1,3 @@
 from mylib.logic import wiki
-
-print(wiki())
+from fastapi import FastAPI
+# print(wiki())

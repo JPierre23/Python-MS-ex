@@ -9,3 +9,5 @@
 3 populate makefile
 
 [![Python app on Github](https://github.com/JPierre23/Python-MS-ex/actions/workflows/devops2.yml/badge.svg)](https://github.com/JPierre23/Python-MS-ex/actions/workflows/devops2.yml)
+
+4 Setup Continuous Integration

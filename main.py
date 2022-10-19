@@ -4,6 +4,7 @@ from mylib.logic import search_wiki
 import uvicorn
 
 # print(wiki())
+app = FastAPI()
 
 @app.get("/")
 async def root():

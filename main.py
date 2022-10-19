@@ -1,6 +1,8 @@
 from mylib.logic import wiki
 from fastapi import FastAPI
+from mylib.logic import wiki as wikilogic
 from mylib.logic import search_wiki
+from mylib.logic import phrase as wikiphrases
 import uvicorn
 
 # print(wiki())
